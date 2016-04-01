@@ -67,6 +67,26 @@
  */
 @property (nonatomic, assign) BOOL isToday;
 
+
+
+
+// prorperties added by Mark Gilchrist
+
+/**
+ *  switch shading on or off
+ */
+@property (nonatomic, assign) BOOL isShaded;
+
+/**
+ * this add view with a shade to it to highlight it
+ */
+@property (nonatomic, strong) UIView *shadeView;
+
+
+- (NSDate *)getDate;
+
+
+
 /**
  *  Customize the circle behind the day's number color using UIAppearance.
  */
