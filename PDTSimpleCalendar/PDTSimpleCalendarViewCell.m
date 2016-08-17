@@ -81,7 +81,7 @@ const CGFloat PDTSimpleCalendarCircleSize = 32.0f;
         
         self.shadeView = [[UIView alloc]initWithFrame:CGRectMake(self.contentView.frame.origin.x + 1,self.contentView.frame.origin.y + 1, self.contentView.frame.size.width -2, self.contentView.frame.size.height - 2)];
         CAShapeLayer *circleLayer = [CAShapeLayer layer];
-        [circleLayer setPath:[[UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.shadeView.frame.origin.x + 3, self.shadeView.frame.origin.x + 3, self.shadeView.frame.size.width - 6, self.shadeView.frame.size.height - 6)] CGPath]];
+        [circleLayer setPath:[[UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.shadeView.frame.origin.x + 2, self.shadeView.frame.origin.x + 2, self.shadeView.frame.size.width - 6, self.shadeView.frame.size.height - 6)] CGPath]];
         [circleLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
         [circleLayer setStrokeColor:[[UIColor grayColor] CGColor]];
         [circleLayer setFillColor:[[UIColor clearColor] CGColor]];
